@@ -1,19 +1,7 @@
 #FastScripts
-[![Build Status](https://travis-ci.org/boxen/puppet-fastscripts.svg?branch=travis)](https://travis-ci.org/boxen/puppet-fastscripts)
 
-Install [FastScripts](http://www.red-sweater.com/fastscripts/) on OS X.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include fastscripts
-```
-
-## Required Puppet Modules
-
-* `boxen`
-* `stdlib`
-
-## Development
-
-Write some code. Run `script/cibuild` to test it. Check the `script` directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
